@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100.. 1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100.. 1000&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    background-color: rgb(4,189,125);  
+}
+
+
+.card{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 500px;
+background-color: rgb(44,47,54);
+width: 400px;
+height: 450px;
+display: flex;
+justify-content: center;
+text-align: center;
+gap: 30px;
+flex-direction: column;
+font-size: 30px;
+border-radius: 15px;
+
+}
+.img{
+    width: 150px;
+    position: relative;
+    bottom: -20px;
+    
+}
+.card  .options{
+    background-color: rgb(44,47,54);
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-optical-sizing: auto;
+    color: white;
+    position: relative;
+    bottom: -20px;  
+    text-shadow: 4px 4px 5px rgba(0,0,0,0.51);
+    
+}
+.card .options .contact{
+    display: flex;
+    align-items: center;
+    background-color: rgb(79,90,103);
+    text-decoration: none;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgb(4,189,125);
+    border: 1px;
+    border-radius: 10px;
+    height: 100px;
+    width: 200px;
+    list-style-type: none;
+    
+} 
+.button .send{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.text{
+display: flex;
+justify-content: center;
+font-size: 10px;
+color: rgb(81,90,102);
+font-family: "Roboto", sans-serif;
+position: relative;
+bottom: 8px;
+text-decoration: underline;
+height: 80px;
+font-weight: bold;
+}
+
+
+input{
+   background-color: rgb(79,90,103);
+   display: flex;
+   margin-top: 10px;
+   color: white;
+   border: 1px;
+   border-radius: 5px;
+   height: 35px;
+   width: 300px;
+   font-family: "Roboto", sans-serif;
+}
+
+label{
+text-align: left; 
+color:rgb(81,90,102);
+font-size: 10px;
+font-weight: bold;
+font-family: "Roboto", sans-serif;
+display: block;
+position: relative;
+bottom: -8px;
+}
+
+/* Linea debajo de login y sign UP */
+
+.with-line {
+    position: relative;
+    padding-bottom: 1px;
+  }
+  
+  .with-line:after {
+    content: '';
+    position: absolute;
+    left: -10%;
+    bottom: -8px;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    
+    width: 120%;
+    transition: transform 0.25s ease;
+  }
+  
+  .with-line:hover:after {
+    transform: translateY(-5px);
+  }
